@@ -1,0 +1,9 @@
+torch==2.8.0
+torchaudio==2.8.0
+torchvision==0.23.0
+torchcodec
+numpy
+pandas
+tqdm
+pyroomacoustics
+soundfile
