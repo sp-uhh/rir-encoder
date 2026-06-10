@@ -44,7 +44,7 @@ encoder = ConformerEncoder().to(device)
 # optim = torch.optim.Adam(encoder.parameters(), lr = 1e-5)
 optim = torch.optim.AdamW(encoder.parameters(), lr=1e-4, weight_decay=1e-2)
 
-epochs = 1
+epochs = 200
 best_val_loss = float('inf')  
 # Lambda for negative loss component
 ld = 0.2
