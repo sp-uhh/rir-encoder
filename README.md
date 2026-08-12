@@ -20,6 +20,8 @@ The current `data_module.py` operates based on the assumption that you are worki
 
 After modifying the file paths in the training loop, you can use the `train.py` script for training the model. The code is rather simple and almost all parts such as backbones, logging, etc. are easily modifiable. 
 
+## Checkpoints
+Here is also a checkpoint for the Conformer model: [Google Drive](https://drive.google.com/file/d/1uJN6SXFdda5hPFPjiuzeQLoW1Qo7b3lA/view)
 
 ## Embedding extraction
 After training, you can use the `embedding_extraction.py` template to extract your embeddings for further analysis.
